@@ -1,0 +1,66 @@
+/* Group 1 */
+.wrapper {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+
+
+
+/* Rectangle 1 */
+
+.wrapper .ball {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    
+    background: #D9D9D9;
+    border-radius: 250px;
+    
+} 
+.wrapper .ball .top {
+
+
+    position: absolute;
+    width: 500px;
+    height: 260px;
+    top:0;
+    
+    background: #FF0000;
+    border-bottom: 18px solid #000000;
+    border-radius:  250px 250px 0 0;
+    transform: rotate(0);
+    }
+
+.wrapper .ball .button {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    
+    background: #D9D9D9;
+    border-radius: 79px;
+    transform: rotate(180deg);
+    border:#000000 10px solid; 
+    top:50%;
+    left:50%;
+    transform:translate(-45px,-45px);
+}    
+
+.wrapper .ball .button .inner {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    
+    background: #D9D9D9;
+    border: 2px solid #000000;
+    border-radius: 114px;    top:50%;
+    left:50%;
+    transform:translate(-27.5px, -27.5px);
+}
+
+* {
+    box-sizing: border-box;
+}
